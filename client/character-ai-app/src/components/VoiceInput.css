@@ -1,0 +1,55 @@
+/* VoiceInput.css */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    color: #333;
+}
+
+button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+button.active {
+    background-color: #0056b3;
+    /* Change color when active */
+}
+
+button:disabled {
+    background-color: #cccccc;
+}
+
+.listening-button {
+    scale: 1.1;
+    /* Default scale for animation */
+}
+
+p {
+    font-size: 18px;
+}
+
+h2 {
+    color: #555;
+}
+
+/* Spinner styles */
+.spinner {
+    display: inline-block;
+    margin-left: 10px;
+}
